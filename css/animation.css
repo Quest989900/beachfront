@@ -1,0 +1,78 @@
+/* FILLMODE CSS */
+
+/* .demo {
+    border-top: 100px solid #ccc;
+    height: 300px;
+  }
+  
+  @keyframes grow {
+    0% { font-size: 0; }
+    100% { font-size: 40px; }
+  }
+  
+  .demo:hover .grows {
+    animation-name: grow;
+    animation-duration: 3s;
+  }
+  
+  .demo:hover .growsandstays {
+    animation-name: grow;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  } */
+
+
+  /* PLAYSTATE CSS */
+
+  /* .box {
+    background-color: rebeccapurple;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+  }
+  
+  .box:hover {
+    animation-play-state: running;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } */
+
+
+  /* keyframe css */
+
+  .watch {
+    color: white;
+    float: left;
+    margin-right: 2%;
+  }
+  
+  .view_port {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .moving-ball {
+    background-color: red;    
+    color: white;
+    height: 100%;
+    width: 20%;
+    border-radius: 50%;  
+   animation: 4s linear 0s infinite alternate moving-ball;
+  }
+  
+  @keyframes moving-ball { from { margin-left: -20%; } to { margin-left: 100%; }  }
+  
+  
